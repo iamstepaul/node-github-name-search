@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= user.name %> - Github User Profile</title>
+  </head>
+  <body>
+    <h1><%= user.name %></h1>
+    <img src="<%= user.avatar_url %>" alt="Profile Picture">
+    <p><strong>Bio:</strong> <%= user.bio %></p>
+    <p><strong>Followers:</strong> <%= user.followers %></p>
+    <p><strong>Following:</strong> <%= user.following %></p>
+    <p><strong>Public Repos:</strong> <%= user.public_repos %></p>
+    <p><strong>Link:</strong> <a href="<%= user.blog %>"><%= user.blog %></a></p>
+  </body>
+</html>
